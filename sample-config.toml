@@ -1,0 +1,17 @@
+[sources.git]
+package_directory = "{key}"
+
+[sources.git.commands]
+download = "git clone {location} {package_directory}"
+update = "git pull"
+
+################################################################################
+
+[packages.mathpaste]
+source = "git"
+location = "https://github.com/PurpleMyst/mathpaste"
+
+[packages.odotdot]
+source = "git"
+location = "https://github.com/Akuli/odotdot"
+commands = { build = "make", install = "cp ö ~/bin/" }

@@ -4,3 +4,10 @@ version = "0.1.0"
 authors = ["Purple Myst <PurpleMyst@users.noreply.github.com>"]
 
 [dependencies]
+toml = "0.4.6"
+dirs = "1.0.2"
+strfmt = "0.1.6"
+duct_sh = "0.1.0"
+colored = "1.6.0"
+serde = "1.0.66"
+serde_derive = "1.0.66"
